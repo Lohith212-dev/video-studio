@@ -1,0 +1,189 @@
+{
+  "title": "A Strategy Without a Budget Is a Wish",
+  "slug": "cx-ai-budget",
+  "createdAt": "2026-10-29T17:40:00Z",
+  "stage": 5,
+  "setup": "done",
+  "stages": [
+    {
+      "id": 1,
+      "name": "Script",
+      "status": "done",
+      "file": "script.html",
+      "choice": "14 beats, 391 words, ~3:09",
+      "items": [
+        {
+          "text": "Brief from the mind dump",
+          "done": true
+        },
+        {
+          "text": "14 beats, 391 words",
+          "done": true
+        },
+        {
+          "text": "Hook: the principle",
+          "done": true
+        },
+        {
+          "text": "3 open questions for the user",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Storyboard",
+      "status": "done",
+      "file": "storyboard.html",
+      "choice": "Ray Dalio style + demo brand (accent); 14 frames",
+      "items": [
+        {
+          "text": "Style and brand picked",
+          "done": true
+        },
+        {
+          "text": "Script paced to the style (130 wpm)",
+          "done": true
+        },
+        {
+          "text": "14 frames sketched",
+          "done": true
+        },
+        {
+          "text": "Every move tied to a spoken word",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cast",
+      "status": "done",
+      "file": "casting.json",
+      "choice": "Open Peeps cast, 3-4 poses per role"
+    },
+    {
+      "id": 4,
+      "name": "Preview",
+      "status": "done",
+      "file": "renders/preview.mp4",
+      "items": [
+        {
+          "text": "14 voice clips, 2:39 at 147 wpm",
+          "done": true
+        },
+        {
+          "text": "20-second preview",
+          "done": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Build and render",
+      "status": "done",
+      "file": "renders/final.mp4",
+      "round": 3,
+      "items": [
+        {
+          "text": "14 scenes + brand end card",
+          "done": true
+        },
+        {
+          "text": "Piano bed (CC BY) + 33 CC0 effects",
+          "done": true
+        },
+        {
+          "text": "Self-checks pass",
+          "done": true
+        },
+        {
+          "text": "1080p render, 2:43",
+          "done": true
+        },
+        {
+          "text": "Description and credits",
+          "done": true
+        }
+      ]
+    }
+  ],
+  "decision": null,
+  "style": "ray-dalio-principles",
+  "brand": "demo",
+  "brandStrength": "accent",
+  "look": {
+    "worlds": {
+      "green-chart": "#2d4237",
+      "navy-story": "#18203d"
+    },
+    "highlight": "#146EF5",
+    "highlightLight": "#7CB9FF",
+    "cream": "#eef0e4",
+    "gold": "#d4a640",
+    "warn": "#f6a800",
+    "display": "Plus Jakarta Sans 800",
+    "label": "Plus Jakarta Sans 500 (Satoshi stand-in)"
+  },
+  "voice": {
+    "id": "am_michael",
+    "speed": 0.92
+  },
+  "lengthTargetSec": 180,
+  "openrouter": false,
+  "log": [
+    {
+      "at": "2026-10-29T17:40:00Z",
+      "text": "Project created; brief written from the mind dump"
+    },
+    {
+      "at": "2026-10-29T17:41:00Z",
+      "text": "Look: Ray Dalio style with brand blue as the highlight"
+    },
+    {
+      "at": "2026-10-29T17:42:00Z",
+      "text": "Script: 14 beats, 391 words (script-intelligence worked example)"
+    },
+    {
+      "at": "2026-10-29T17:43:00Z",
+      "text": "Storyboard started"
+    },
+    {
+      "at": "2026-10-29T17:38:52.066Z",
+      "text": "Storyboard: 14 frames with sketches; approved (test run)"
+    },
+    {
+      "at": "2026-10-29T17:38:52.066Z",
+      "text": "Voice: generating 14 beats with am_michael"
+    },
+    {
+      "at": "2026-10-29T17:46:17.034Z",
+      "text": "Voice: 14 clips, 2:39 total, 147 wpm"
+    },
+    {
+      "at": "2026-10-29T17:46:17.034Z",
+      "text": "Build started"
+    },
+    {
+      "at": "2026-10-29T17:53:40.429Z",
+      "text": "Build: 14 scenes, checks pass"
+    },
+    {
+      "at": "2026-10-29T17:53:40.429Z",
+      "text": "Sound: piano bed + 33 effects mixed"
+    },
+    {
+      "at": "2026-10-29T17:53:40.429Z",
+      "text": "Render started"
+    },
+    {
+      "at": "2026-10-29T17:58:45.518Z",
+      "text": "Rendered: renders/final.mp4 (2:43, 1080p)"
+    },
+    {
+      "at": "2026-10-30T01:30:00",
+      "text": "v3: picked Open Peeps cast with pose changes, camera moves, draw-on props, zoom-through scene changes. Motion 98.5% moving (v2 47.9%, reference 75.3%)."
+    }
+  ],
+  "now": "The video is finished: 2:43 at 1080p."
+}

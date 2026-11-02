@@ -1,0 +1,1136 @@
+{
+  "title": "A Strategy Without a Budget Is a Wish",
+  "style": "ray-dalio-principles + demo (accent)",
+  "palette": {
+    "bg": "#2d4237",
+    "ink": "#eef0e4",
+    "accent": "#146EF5"
+  },
+  "worlds": {
+    "green-chart": "#2d4237",
+    "navy-story": "#18203d"
+  },
+  "frames": [
+    {
+      "frame": "f01",
+      "beat": "B01",
+      "scene_type": "principle-card",
+      "seconds_estimate": 11.5,
+      "world": "green-chart",
+      "narration": "Here is a principle. A strategy that is not backed by numbers, and checked against them, is not a strategy. It is a wish.",
+      "intent": "The viewer hears the thesis plainly and expects it to be proven.",
+      "layout": "Grid chalkboard, empty chart frame. Four centred serif lines; 'a wish.' last, in brand blue, with gold sparkles.",
+      "elements": [
+        {
+          "id": "line1",
+          "kind": "text",
+          "text": "A strategy not backed by numbers,",
+          "source": "code:svg"
+        },
+        {
+          "id": "line2",
+          "kind": "text",
+          "text": "and checked against them,",
+          "source": "code:svg"
+        },
+        {
+          "id": "line3",
+          "kind": "text",
+          "text": "is not a strategy.",
+          "source": "code:svg"
+        },
+        {
+          "id": "wish",
+          "kind": "text",
+          "text": "It is a wish.",
+          "source": "code:svg",
+          "note": "highlight blue, sparkles"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "principle",
+          "what": "eyebrow 'A PRINCIPLE' rises in",
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "strategy",
+          "what": "line 1 rises in",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "checked",
+          "what": "line 2 rises in",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "not",
+          "what": "line 3 rises in",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "wish",
+          "what": "'It is a wish.' rises in; 5 gold sparkles pop around it",
+          "dur": 0.5,
+          "ease": "back.out(2)"
+        }
+      ],
+      "on_screen_text": [
+        "A principle",
+        "A strategy not backed by numbers,",
+        "and checked against them,",
+        "is not a strategy.",
+        "It is a wish."
+      ],
+      "numbers": [],
+      "sfx": [
+        {
+          "at_word": "wish",
+          "file": "sparkle/ding (soft)"
+        }
+      ],
+      "transition_out": {
+        "type": "pan-left",
+        "dur": 0.6
+      },
+      "sketch_svg": "<text x='80' y='22' text-anchor='middle' font-size='4' fill='#c9cfbf' letter-spacing='1'>A PRINCIPLE</text><text x='80' y='36' text-anchor='middle' font-size='7' font-family='Georgia' fill='#eef0e4'>A strategy not backed by numbers,</text><text x='80' y='46' text-anchor='middle' font-size='7' font-family='Georgia' fill='#eef0e4'>and checked against them,</text><text x='80' y='56' text-anchor='middle' font-size='7' font-family='Georgia' fill='#eef0e4'>is not a strategy.</text><text x='80' y='70' text-anchor='middle' font-size='9' font-family='Georgia' font-weight='bold' fill='#5aa0ff'>It is a wish.</text><g fill='#d4a640'><circle cx='45' cy='64' r='1.5'/><circle cx='118' cy='62' r='1.5'/><circle cx='112' cy='74' r='1'/></g>"
+    },
+    {
+      "frame": "f02",
+      "beat": "B02",
+      "scene_type": "big-cycle-story",
+      "seconds_estimate": 16,
+      "world": "navy-story",
+      "narration": "To see why, follow one company through one year. A wealth manager's service team and its AI plan. By the end, you'll see the one number that shows whether the plan is on track.",
+      "intent": "Whose story this is, plus one open question: which number?",
+      "layout": "Classical building left with label; 12 month dots along the ground line; a paper report card right with one blurred line and a question mark.",
+      "elements": [
+        {
+          "id": "building",
+          "kind": "prop",
+          "source": "code:svg (kit.building)"
+        },
+        {
+          "id": "months",
+          "kind": "timeline",
+          "source": "code:svg",
+          "count": 12
+        },
+        {
+          "id": "report",
+          "kind": "paper card",
+          "source": "code:svg",
+          "note": "one blurred row + '?'"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "company",
+          "what": "building pops up from the ground line",
+          "dur": 0.6,
+          "ease": "back.out(1.6)"
+        },
+        {
+          "at_word": "year",
+          "what": "12 month dots pop left to right with J..D labels",
+          "dur": 1.2,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "manager's",
+          "what": "label 'A wealth manager' rises in under building",
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "number",
+          "what": "report card slides up, tilted; blurred row shimmers; '?' pops",
+          "dur": 0.6,
+          "ease": "power3.out"
+        }
+      ],
+      "on_screen_text": [
+        "A wealth manager",
+        "One company. One year."
+      ],
+      "numbers": [],
+      "sfx": [
+        {
+          "at_word": "company",
+          "file": "pop-soft"
+        },
+        {
+          "at_word": "number",
+          "file": "paper slide"
+        }
+      ],
+      "transition_out": {
+        "type": "cut"
+      },
+      "sketch_svg": "<line x1='0' y1='72' x2='160' y2='72' stroke='#c9cfdf' stroke-width='.6'/><polygon points='18,38 40,28 62,38' fill='#e9e1c9' stroke='#000' stroke-width='.6'/><rect x='20' y='38' width='40' height='30' fill='#e9e1c9' stroke='#000' stroke-width='.6'/><text x='40' y='80' text-anchor='middle' font-size='4.5' fill='#eef0e4'>A wealth manager</text><g fill='#eef0e4'><circle cx='72' cy='72' r='1.6'/><circle cx='78.5' cy='72' r='1.6'/><circle cx='85' cy='72' r='1.6'/><circle cx='91.5' cy='72' r='1.6'/><circle cx='98' cy='72' r='1.6'/><circle cx='104.5' cy='72' r='1.6'/><circle cx='111' cy='72' r='1.6'/><circle cx='117.5' cy='72' r='1.6'/><circle cx='124' cy='72' r='1.6'/><circle cx='130.5' cy='72' r='1.6'/><circle cx='137' cy='72' r='1.6'/><circle cx='143.5' cy='72' r='1.6'/></g><g transform='rotate(4 128 40)'><rect x='108' y='20' width='40' height='34' rx='2' fill='#fff'/><rect x='113' y='28' width='30' height='3' fill='#ccc'/><rect x='113' y='36' width='30' height='4' fill='#7CB9FF' opacity='.5'/><text x='128' y='50' text-anchor='middle' font-size='7' fill='#146EF5'>?</text></g>"
+    },
+    {
+      "frame": "f03",
+      "beat": "B03",
+      "scene_type": "big-cycle-story",
+      "seconds_estimate": 14.5,
+      "world": "navy-story",
+      "narration": "Start with today. The team answers about one hundred thousand customer questions a year. Each one costs about twelve dollars. And six in ten are questions it has answered before.",
+      "intent": "Size and cost of the load, and that most of it is repetition.",
+      "layout": "Building shrinks to the left; 10x10 speech-bubble grid centre with title; gold $12 coin right; legend below the grid.",
+      "elements": [
+        {
+          "id": "bubbles",
+          "kind": "icon-grid",
+          "count": 100,
+          "source": "code:svg (kit.bubble)"
+        },
+        {
+          "id": "title",
+          "kind": "text",
+          "text": "100,000 questions a year",
+          "source": "code:svg"
+        },
+        {
+          "id": "coin",
+          "kind": "prop",
+          "text": "$12",
+          "source": "code:svg (kit.coin)"
+        },
+        {
+          "id": "legend",
+          "kind": "text",
+          "text": "60% are repeats",
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "today",
+          "what": "building slides left and scales to 0.75",
+          "dur": 0.6,
+          "ease": "power3.inOut"
+        },
+        {
+          "at_word": "answers",
+          "what": "100 bubbles pop in, random order, 0.025s stagger",
+          "dur": 3,
+          "ease": "back.out(2.2)"
+        },
+        {
+          "at_word": "thousand",
+          "what": "title rises in",
+          "dur": 0.45,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "twelve",
+          "what": "$12 coin pops with rays; 'per question' rises",
+          "dur": 0.55,
+          "ease": "back.out(2.2)"
+        },
+        {
+          "at_word": "six",
+          "what": "60 bubbles turn orange in a ripple; legend rises",
+          "dur": 1.4,
+          "ease": "none"
+        }
+      ],
+      "on_screen_text": [
+        "100,000 questions a year",
+        "$12 per question",
+        "60% are repeats"
+      ],
+      "numbers": [
+        "100,000",
+        "$12",
+        "60%"
+      ],
+      "sfx": [
+        {
+          "at_word": "answers",
+          "file": "pop-soft (3 light pops)"
+        },
+        {
+          "at_word": "twelve",
+          "file": "coin"
+        }
+      ],
+      "transition_out": {
+        "type": "cut"
+      },
+      "sketch_svg": "<line x1='0' y1='76' x2='160' y2='76' stroke='#c9cfdf' stroke-width='.6'/><rect x='6' y='52' width='20' height='22' fill='#e9e1c9' stroke='#000' stroke-width='.5'/><text x='75' y='14' text-anchor='middle' font-size='6' font-family='Georgia' fill='#eef0e4'>100,000 questions a year</text><g stroke='#000' stroke-width='.3'><rect x='40' y='20' width='6' height='5' rx='1' fill='#f6a800'/><rect x='47' y='20' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='54' y='20' width='6' height='5' rx='1' fill='#f6a800'/><rect x='61' y='20' width='6' height='5' rx='1' fill='#f6a800'/><rect x='68' y='20' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='75' y='20' width='6' height='5' rx='1' fill='#f6a800'/><rect x='82' y='20' width='6' height='5' rx='1' fill='#f6a800'/><rect x='89' y='20' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='96' y='20' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='103' y='20' width='6' height='5' rx='1' fill='#f6a800'/><rect x='40' y='28' width='6' height='5' rx='1' fill='#f6a800'/><rect x='47' y='28' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='54' y='28' width='6' height='5' rx='1' fill='#f6a800'/><rect x='61' y='28' width='6' height='5' rx='1' fill='#f6a800'/><rect x='68' y='28' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='75' y='28' width='6' height='5' rx='1' fill='#f6a800'/><rect x='82' y='28' width='6' height='5' rx='1' fill='#f6a800'/><rect x='89' y='28' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='96' y='28' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='103' y='28' width='6' height='5' rx='1' fill='#f6a800'/><rect x='40' y='36' width='6' height='5' rx='1' fill='#f6a800'/><rect x='47' y='36' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='54' y='36' width='6' height='5' rx='1' fill='#f6a800'/><rect x='61' y='36' width='6' height='5' rx='1' fill='#f6a800'/><rect x='68' y='36' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='75' y='36' width='6' height='5' rx='1' fill='#f6a800'/><rect x='82' y='36' width='6' height='5' rx='1' fill='#f6a800'/><rect x='89' y='36' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='96' y='36' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='103' y='36' width='6' height='5' rx='1' fill='#f6a800'/><rect x='40' y='44' width='6' height='5' rx='1' fill='#f6a800'/><rect x='47' y='44' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='54' y='44' width='6' height='5' rx='1' fill='#f6a800'/><rect x='61' y='44' width='6' height='5' rx='1' fill='#f6a800'/><rect x='68' y='44' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='75' y='44' width='6' height='5' rx='1' fill='#f6a800'/><rect x='82' y='44' width='6' height='5' rx='1' fill='#f6a800'/><rect x='89' y='44' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='96' y='44' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='103' y='44' width='6' height='5' rx='1' fill='#f6a800'/><rect x='40' y='52' width='6' height='5' rx='1' fill='#f6a800'/><rect x='47' y='52' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='54' y='52' width='6' height='5' rx='1' fill='#f6a800'/><rect x='61' y='52' width='6' height='5' rx='1' fill='#f6a800'/><rect x='68' y='52' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='75' y='52' width='6' height='5' rx='1' fill='#f6a800'/><rect x='82' y='52' width='6' height='5' rx='1' fill='#f6a800'/><rect x='89' y='52' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='96' y='52' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='103' y='52' width='6' height='5' rx='1' fill='#f6a800'/><rect x='40' y='60' width='6' height='5' rx='1' fill='#f6a800'/><rect x='47' y='60' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='54' y='60' width='6' height='5' rx='1' fill='#f6a800'/><rect x='61' y='60' width='6' height='5' rx='1' fill='#f6a800'/><rect x='68' y='60' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='75' y='60' width='6' height='5' rx='1' fill='#f6a800'/><rect x='82' y='60' width='6' height='5' rx='1' fill='#f6a800'/><rect x='89' y='60' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='96' y='60' width='6' height='5' rx='1' fill='#f3efe2'/><rect x='103' y='60' width='6' height='5' rx='1' fill='#f6a800'/></g><circle cx='137' cy='40' r='10' fill='#d4a640' stroke='#000' stroke-width='.5'/><text x='137' y='43' text-anchor='middle' font-size='6' font-weight='bold' fill='#4a3510'>$12</text><text x='75' y='86' text-anchor='middle' font-size='4.5' fill='#eef0e4'>60% are repeats</text>"
+    },
+    {
+      "frame": "f04",
+      "beat": "B04",
+      "scene_type": "big-cycle-story",
+      "seconds_estimate": 13.5,
+      "world": "navy-story",
+      "narration": "So most of the money goes into repeat work. But the unusual questions, the ones that need a person, can wait up to a day for a reply.",
+      "intent": "The mismatch: money spent on easy questions while hard ones wait.",
+      "layout": "Left: a tall stack of orange bubbles with gold coins flowing into it. Right: one odd-shaped cream bubble with '?' sitting alone under a big clock face; '24h' label.",
+      "elements": [
+        {
+          "id": "stack",
+          "kind": "prop",
+          "source": "code:svg",
+          "note": "12 stacked orange bubbles"
+        },
+        {
+          "id": "coins",
+          "kind": "prop",
+          "source": "code:svg (kit.coin small)"
+        },
+        {
+          "id": "odd",
+          "kind": "prop",
+          "source": "code:svg",
+          "note": "jagged bubble with ?"
+        },
+        {
+          "id": "clock",
+          "kind": "prop",
+          "source": "code:svg",
+          "note": "hand sweeps"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "money",
+          "what": "bubbles stack up from the ground one by one; 4 small coins drop into the stack",
+          "dur": 2,
+          "ease": "bounce.out"
+        },
+        {
+          "at_word": "unusual",
+          "what": "odd bubble pops in alone on the right",
+          "dur": 0.45,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "wait",
+          "what": "clock pops above it; minute hand sweeps a full day (2 turns)",
+          "dur": 3,
+          "ease": "power1.inOut"
+        },
+        {
+          "at_word": "day",
+          "what": "'up to 24h' label rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "on_screen_text": [
+        "Repeat work",
+        "Up to 24h for a reply"
+      ],
+      "numbers": [
+        "24h"
+      ],
+      "sfx": [
+        {
+          "at_word": "wait",
+          "file": "clock tick (soft)"
+        }
+      ],
+      "transition_out": {
+        "type": "pan-left",
+        "dur": 0.6
+      },
+      "sketch_svg": "<line x1='0' y1='76' x2='160' y2='76' stroke='#c9cfdf' stroke-width='.6'/><g fill='#f6a800' stroke='#000' stroke-width='.4'><rect x='30' y='66' width='16' height='8' rx='2'/><rect x='30' y='57' width='16' height='8' rx='2'/><rect x='30' y='48' width='16' height='8' rx='2'/><rect x='30' y='39' width='16' height='8' rx='2'/><rect x='30' y='30' width='16' height='8' rx='2'/><rect x='30' y='21' width='16' height='8' rx='2'/></g><circle cx='115' cy='32' r='12' fill='#f3efe2' stroke='#000' stroke-width='.6'/><line x1='115' y1='32' x2='115' y2='23' stroke='#000' stroke-width='.8'/><rect x='106' y='56' width='18' height='12' rx='2' fill='#f3efe2' stroke='#000' stroke-width='.5'/><text x='115' y='65' text-anchor='middle' font-size='7' fill='#000'>?</text><text x='115' y='84' text-anchor='middle' font-size='5' fill='#eef0e4'>up to 24h</text>"
+    },
+    {
+      "frame": "f05",
+      "beat": "B05",
+      "scene_type": "simple-machine",
+      "seconds_estimate": 13.5,
+      "world": "green-chart",
+      "narration": "Therefore, the plan was built like a simple machine, with three parts. What you will do. What it will cost. And how you will know it is working.",
+      "intent": "A map of what's coming, and a reason to keep watching.",
+      "layout": "Three interlocking gears across the centre (cream, blue, cream), labels under each: Work, Cost, Tracking. Title 'The plan' above.",
+      "elements": [
+        {
+          "id": "gear1",
+          "kind": "prop",
+          "text": "Work",
+          "source": "code:svg"
+        },
+        {
+          "id": "gear2",
+          "kind": "prop",
+          "text": "Cost",
+          "source": "code:svg"
+        },
+        {
+          "id": "gear3",
+          "kind": "prop",
+          "text": "Tracking",
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "machine",
+          "what": "title 'The plan: a simple machine' rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "do",
+          "what": "gear 1 pops, label 'Work'",
+          "dur": 0.5,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "cost",
+          "what": "gear 2 pops, label 'Cost', gears start turning together",
+          "dur": 0.5,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "working",
+          "what": "gear 3 pops, label 'Tracking'; all three turn",
+          "dur": 0.5,
+          "ease": "back.out(2)"
+        }
+      ],
+      "on_screen_text": [
+        "The plan: a simple machine",
+        "Work",
+        "Cost",
+        "Tracking"
+      ],
+      "numbers": [],
+      "sfx": [
+        {
+          "at_word": "do",
+          "file": "click"
+        },
+        {
+          "at_word": "cost",
+          "file": "click"
+        },
+        {
+          "at_word": "working",
+          "file": "click"
+        }
+      ],
+      "transition_out": {
+        "type": "cut"
+      },
+      "sketch_svg": "<text x='80' y='18' text-anchor='middle' font-size='6' font-family='Georgia' fill='#eef0e4'>The plan: a simple machine</text><g stroke='#000' stroke-width='.6'><circle cx='45' cy='46' r='15' fill='#f3efe2'/><circle cx='80' cy='46' r='15' fill='#146EF5'/><circle cx='115' cy='46' r='15' fill='#f3efe2'/></g><g font-size='5' fill='#eef0e4' text-anchor='middle'><text x='45' y='72'>Work</text><text x='80' y='72'>Cost</text><text x='115' y='72'>Tracking</text></g>"
+    },
+    {
+      "frame": "f06",
+      "beat": "B06",
+      "scene_type": "evidence-chart",
+      "seconds_estimate": 14.5,
+      "world": "green-chart",
+      "narration": "First, the work. Seven uses of AI, from an assistant that answers routine questions to tools that route each request and help agents reply faster. Five phases, over twelve months.",
+      "intent": "The plan is concrete and phased.",
+      "layout": "Small 'Work' gear badge top-left. A row of 7 icon tokens across the upper half. Below, a 0-12 month axis with 5 coloured brush segments: Discover 0-2, Pilot 3-5, Integrate 6-8, Scale 9-12, Optimize (arrow beyond).",
+      "elements": [
+        {
+          "id": "badge",
+          "kind": "prop",
+          "source": "code:svg",
+          "text": "1 · Work"
+        },
+        {
+          "id": "icons",
+          "kind": "icon-row",
+          "count": 7,
+          "source": "code:svg (simple line glyphs)"
+        },
+        {
+          "id": "phases",
+          "kind": "timeline",
+          "count": 5,
+          "source": "code:svg (brush segments)"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "work",
+          "what": "badge pops",
+          "dur": 0.4,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "Seven",
+          "what": "7 icon tokens pop left to right, labels under each",
+          "dur": 2,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "Five",
+          "what": "month axis draws; phase segments draw left to right with labels",
+          "dur": 2.6,
+          "ease": "power1.inOut"
+        },
+        {
+          "at_word": "twelve",
+          "what": "'12 months' bracket grows under the axis",
+          "dur": 0.4,
+          "ease": "power2.inOut"
+        }
+      ],
+      "on_screen_text": [
+        "7 AI use cases",
+        "Discover · Pilot · Integrate · Scale · Optimize",
+        "12 months"
+      ],
+      "numbers": [
+        "7",
+        "5",
+        "12"
+      ],
+      "sfx": [
+        {
+          "at_word": "Seven",
+          "file": "pop-soft x7 (quiet)"
+        }
+      ],
+      "transition_out": {
+        "type": "cut"
+      },
+      "sketch_svg": "<g fill='#f3efe2' stroke='#000' stroke-width='.5'><circle cx='25' cy='28' r='6'/><circle cx='43' cy='28' r='6'/><circle cx='61' cy='28' r='6'/><circle cx='79' cy='28' r='6'/><circle cx='97' cy='28' r='6'/><circle cx='115' cy='28' r='6'/><circle cx='133' cy='28' r='6'/></g><line x1='15' y1='64' x2='145' y2='64' stroke='#eef0e4' stroke-width='.5'/><g stroke-width='4'><line x1='15' y1='58' x2='37' y2='58' stroke='#7CB9FF'/><line x1='38' y1='58' x2='70' y2='58' stroke='#146EF5'/><line x1='71' y1='58' x2='102' y2='58' stroke='#0b1446'/><line x1='103' y1='58' x2='135' y2='58' stroke='#f6a800'/><line x1='136' y1='58' x2='148' y2='58' stroke='#d4a640'/></g><text x='80' y='80' text-anchor='middle' font-size='5' fill='#eef0e4'>12 months</text>"
+    },
+    {
+      "frame": "f07",
+      "beat": "B07",
+      "scene_type": "evidence-chart",
+      "seconds_estimate": 14.5,
+      "world": "green-chart",
+      "narration": "Second, the price. One point two million dollars for the year. Seven hundred thousand, spent once, to build. Four hundred thousand, recurring, to run. And one hundred thousand, held back.",
+      "intent": "The total, and the three kinds of money inside it.",
+      "layout": "'2 · Cost' badge top-left. Title '12-month AI budget'. One wide brush bar that splits into three: build (deep navy), run (brand blue), reserve (orange). Labels above each with amounts; '$1.2M total' bracket below.",
+      "elements": [
+        {
+          "id": "badge",
+          "kind": "prop",
+          "text": "2 · Cost",
+          "source": "code:svg"
+        },
+        {
+          "id": "bar",
+          "kind": "stacked bar",
+          "source": "code:svg (from cx-poc)"
+        },
+        {
+          "id": "total",
+          "kind": "bracket + text",
+          "text": "$1.2M total",
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "price",
+          "what": "badge + title",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "million",
+          "what": "full-width bar grows, '$1.2M total' bracket and text",
+          "dur": 0.8,
+          "ease": "power2.inOut"
+        },
+        {
+          "at_word": "Seven",
+          "what": "bar splits: build segment labelled '$0.7M · build once'",
+          "dur": 0.5,
+          "ease": "power2.inOut"
+        },
+        {
+          "at_word": "Four",
+          "what": "run segment labelled '$0.4M · run, recurring'",
+          "dur": 0.5,
+          "ease": "power2.inOut"
+        },
+        {
+          "at_word": "held",
+          "what": "reserve segment labelled '$0.1M · held back'",
+          "dur": 0.5,
+          "ease": "power2.inOut"
+        }
+      ],
+      "on_screen_text": [
+        "12-month AI budget",
+        "$1.2M total",
+        "$0.7M build once",
+        "$0.4M run, recurring",
+        "$0.1M held back"
+      ],
+      "numbers": [
+        "$1.2M",
+        "$0.7M",
+        "$0.4M",
+        "$0.1M"
+      ],
+      "sfx": [
+        {
+          "at_word": "million",
+          "file": "coin"
+        }
+      ],
+      "transition_out": {
+        "type": "none (continues into f08)"
+      },
+      "sketch_svg": "<text x='80' y='16' text-anchor='middle' font-size='6' font-family='Georgia' fill='#eef0e4'>12-month AI budget</text><rect x='15' y='40' width='76' height='10' fill='#0b1446' stroke='#000' stroke-width='.4'/><rect x='91' y='40' width='43' height='10' fill='#146EF5' stroke='#000' stroke-width='.4'/><rect x='134' y='40' width='11' height='10' fill='#f6a800' stroke='#000' stroke-width='.4'/><g font-size='4.5' fill='#eef0e4' text-anchor='middle'><text x='53' y='34'>$0.7M build</text><text x='112' y='34'>$0.4M run</text><text x='139' y='30'>$0.1M</text></g><line x1='15' y1='58' x2='145' y2='58' stroke='#eef0e4' stroke-width='.5'/><text x='80' y='68' text-anchor='middle' font-size='6' font-family='Georgia' fill='#eef0e4'>$1.2M total</text>"
+    },
+    {
+      "frame": "f08",
+      "beat": "B08",
+      "scene_type": "evidence-chart",
+      "seconds_estimate": 9,
+      "world": "green-chart",
+      "narration": "Notice that last part. A budget with no reserve assumes nothing will go wrong. That is rarely true.",
+      "intent": "A pause that turns a line item into a principle.",
+      "layout": "Same as f07. Build and run segments dim to 30%. Reserve segment glows; a small drawn umbrella pops over it; label 'Keep a reserve' in blue.",
+      "elements": [
+        {
+          "id": "umbrella",
+          "kind": "prop",
+          "source": "code:svg"
+        },
+        {
+          "id": "label",
+          "kind": "text",
+          "text": "Keep a reserve",
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "Notice",
+          "what": "build + run segments dim; reserve segment scales up 1.15 and back",
+          "dur": 0.6,
+          "ease": "power2.inOut"
+        },
+        {
+          "at_word": "reserve",
+          "what": "umbrella pops over the reserve segment",
+          "dur": 0.5,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "wrong",
+          "what": "two small rain clouds puff in above the umbrella (kit puffs, grey)",
+          "dur": 0.8,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "rarely",
+          "what": "'Keep a reserve' rises in under it",
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "on_screen_text": [
+        "Keep a reserve"
+      ],
+      "numbers": [
+        "$0.1M"
+      ],
+      "sfx": [
+        {
+          "at_word": "Notice",
+          "file": "music dips out for this beat"
+        }
+      ],
+      "transition_out": {
+        "type": "pan-left",
+        "dur": 0.6
+      },
+      "sketch_svg": "<rect x='15' y='40' width='76' height='10' fill='#0b1446' opacity='.3'/><rect x='91' y='40' width='43' height='10' fill='#146EF5' opacity='.3'/><rect x='133' y='38' width='13' height='14' fill='#f6a800' stroke='#000' stroke-width='.5'/><path d='M126 30 q13 -12 26 0 z' fill='#146EF5' stroke='#000' stroke-width='.5'/><line x1='139' y1='30' x2='139' y2='38' stroke='#000' stroke-width='.6'/><text x='120' y='66' text-anchor='middle' font-size='6' fill='#5aa0ff' font-family='Georgia'>Keep a reserve</text>"
+    },
+    {
+      "frame": "f09",
+      "beat": "B09",
+      "scene_type": "evidence-chart",
+      "seconds_estimate": 15,
+      "world": "green-chart",
+      "narration": "Third, the part most plans leave out. Every month, actual spending is checked against the plan. And at fixed points, the team must choose. Scale it. Improve it. Or stop it.",
+      "intent": "Tracking and explicit decisions make the plan real.",
+      "layout": "'3 · Tracking' badge. 12 monthly bar pairs (plan = cream outline, actual = blue fill) across the left 70%; at the right end a drawn three-way signpost: Scale (up), Improve (loop), Stop (red).",
+      "elements": [
+        {
+          "id": "bars",
+          "kind": "bar chart",
+          "count": 12,
+          "source": "code:svg",
+          "note": "plan vs actual from the tracker table"
+        },
+        {
+          "id": "signpost",
+          "kind": "prop",
+          "source": "code:svg",
+          "note": "3 arrow boards"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "Third",
+          "what": "badge pops",
+          "dur": 0.4,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "month",
+          "what": "bar pairs grow month by month, J..D labels",
+          "dur": 3.6,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "choose",
+          "what": "signpost post rises",
+          "dur": 0.4,
+          "ease": "back.out(1.6)"
+        },
+        {
+          "at_word": "Scale",
+          "what": "board 'Scale' pops",
+          "dur": 0.35,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "Improve",
+          "what": "board 'Improve' pops",
+          "dur": 0.35,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "stop",
+          "what": "board 'Stop' pops (red)",
+          "dur": 0.35,
+          "ease": "back.out(2)"
+        }
+      ],
+      "on_screen_text": [
+        "Plan vs actual, every month",
+        "Scale",
+        "Improve",
+        "Stop"
+      ],
+      "numbers": [],
+      "sfx": [
+        {
+          "at_word": "Scale",
+          "file": "click"
+        },
+        {
+          "at_word": "Improve",
+          "file": "click"
+        },
+        {
+          "at_word": "stop",
+          "file": "click"
+        }
+      ],
+      "transition_out": {
+        "type": "cut"
+      },
+      "sketch_svg": "<g fill='none' stroke='#eef0e4' stroke-width='.5'><rect x='14' y='40' width='5' height='30'/><rect x='23' y='36' width='5' height='34'/><rect x='32' y='30' width='5' height='40'/><rect x='41' y='28' width='5' height='42'/><rect x='50' y='28' width='5' height='42'/><rect x='59' y='30' width='5' height='40'/></g><g fill='#146EF5'><rect x='15' y='42' width='4' height='28'/><rect x='24' y='35' width='4' height='35'/><rect x='33' y='32' width='4' height='38'/><rect x='42' y='29' width='4' height='41'/><rect x='51' y='27' width='4' height='43'/><rect x='60' y='31' width='4' height='39'/></g><line x1='125' y1='24' x2='125' y2='74' stroke='#000' stroke-width='1.2'/><rect x='112' y='26' width='30' height='8' fill='#15803d' stroke='#000' stroke-width='.4'/><rect x='108' y='38' width='30' height='8' fill='#146EF5' stroke='#000' stroke-width='.4'/><rect x='112' y='50' width='30' height='8' fill='#cb1c00' stroke='#000' stroke-width='.4'/><g font-size='4.5' fill='#fff' text-anchor='middle'><text x='127' y='32'>Scale</text><text x='123' y='44'>Improve</text><text x='127' y='56'>Stop</text></g>"
+    },
+    {
+      "frame": "f10",
+      "beat": "B10",
+      "scene_type": "evidence-chart",
+      "seconds_estimate": 15.5,
+      "world": "green-chart",
+      "narration": "Here is the number I promised. In the tracker, spending comes in at one point one six million dollars, against one point two planned. About three percent under. The plan is on track.",
+      "intent": "The open loop closes: one variance figure says the plan is under control.",
+      "layout": "A tilted paper ledger card centre: rows Budget $1.2M, Actual $1.161M, Variance -3% (row highlighted in blue). A green 'ON TRACK' rubber stamp lands on the card.",
+      "elements": [
+        {
+          "id": "ledger",
+          "kind": "paper card",
+          "source": "code:svg"
+        },
+        {
+          "id": "stamp",
+          "kind": "prop",
+          "text": "ON TRACK",
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "promised",
+          "what": "ledger slides up tilted -2deg",
+          "dur": 0.6,
+          "ease": "power3.out"
+        },
+        {
+          "at_word": "one",
+          "what": "row 'Actual $1.161M' types in",
+          "dur": 0.5,
+          "ease": "none"
+        },
+        {
+          "at_word": "planned",
+          "what": "row 'Budget $1.2M' types in",
+          "dur": 0.5,
+          "ease": "none"
+        },
+        {
+          "at_word": "three",
+          "what": "row 'Variance -3%' types in; blue highlighter swipes across it",
+          "dur": 0.6,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "track",
+          "what": "green 'ON TRACK' stamp slams in (scale 1.6 -> 1, rotate 8deg)",
+          "dur": 0.3,
+          "ease": "power4.in"
+        }
+      ],
+      "on_screen_text": [
+        "Budget $1.2M",
+        "Actual $1.161M",
+        "Variance -3%",
+        "ON TRACK"
+      ],
+      "numbers": [
+        "$1.2M",
+        "$1.161M",
+        "-3%"
+      ],
+      "sfx": [
+        {
+          "at_word": "track",
+          "file": "stamp thud"
+        }
+      ],
+      "transition_out": {
+        "type": "pan-left",
+        "dur": 0.6
+      },
+      "sketch_svg": "<g transform='rotate(-2 80 45)'><rect x='45' y='14' width='70' height='60' rx='2' fill='#fff'/><g font-size='5' fill='#272727'><text x='50' y='28'>Budget</text><text x='108' y='28' text-anchor='end'>$1.2M</text><text x='50' y='40'>Actual</text><text x='108' y='40' text-anchor='end'>$1.161M</text></g><rect x='48' y='46' width='62' height='8' fill='#7CB9FF'/><g font-size='5' fill='#272727'><text x='50' y='52'>Variance</text><text x='108' y='52' text-anchor='end'>-3%</text></g></g><g transform='rotate(8 100 66)'><rect x='82' y='60' width='38' height='10' fill='none' stroke='#15803d' stroke-width='1'/><text x='101' y='67.5' text-anchor='middle' font-size='5' fill='#15803d'>ON TRACK</text></g>"
+    },
+    {
+      "frame": "f11",
+      "beat": "B11",
+      "scene_type": "evidence-chart",
+      "seconds_estimate": 15,
+      "world": "green-chart",
+      "narration": "So what does the money buy? The goal is to cut each question's cost from twelve dollars to nine this year, and to make the team about thirty percent more productive.",
+      "intent": "Spend connected to an expected result, labelled as a goal.",
+      "layout": "Left two-thirds: cost-per-question line over a 0-12 month axis, $12 coin at start, $9 coin at month 12 (from cx-poc). Right third: three simple drawn team figures with a '+30%' badge. Eyebrow 'Goals for year one'.",
+      "elements": [
+        {
+          "id": "line",
+          "kind": "brush line",
+          "source": "code:svg (kit.brushLine)"
+        },
+        {
+          "id": "coins",
+          "kind": "prop",
+          "source": "code:svg (kit.coin)"
+        },
+        {
+          "id": "team",
+          "kind": "people",
+          "source": "kit:people or code:svg simple figures",
+          "count": 3
+        },
+        {
+          "id": "badge",
+          "kind": "text",
+          "text": "+30% productivity",
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "buy",
+          "what": "eyebrow 'Goals for year one' rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "twelve",
+          "what": "$12 coin pops at month 0",
+          "dur": 0.5,
+          "ease": "back.out(2.2)"
+        },
+        {
+          "at_word": "nine",
+          "what": "line draws down to month 12; $9 coin pops",
+          "dur": 2,
+          "ease": "power1.inOut"
+        },
+        {
+          "at_word": "team",
+          "what": "three figures pop in",
+          "dur": 0.8,
+          "ease": "back.out(2)"
+        },
+        {
+          "at_word": "thirty",
+          "what": "'+30%' badge pops; figures bob once",
+          "dur": 0.5,
+          "ease": "back.out(2.2)"
+        }
+      ],
+      "on_screen_text": [
+        "Goals for year one",
+        "$12 → $9 per question",
+        "+30% productivity"
+      ],
+      "numbers": [
+        "$12",
+        "$9",
+        "30%"
+      ],
+      "sfx": [
+        {
+          "at_word": "nine",
+          "file": "coin"
+        }
+      ],
+      "transition_out": {
+        "type": "pan-left",
+        "dur": 0.6
+      },
+      "risk": "People figures: use the starter-kit people if they fit the style; otherwise simple drawn figures.",
+      "sketch_svg": "<path d='M12 30 C40 30 50 52 90 52' fill='none' stroke='#146EF5' stroke-width='3'/><circle cx='12' cy='22' r='6' fill='#d4a640' stroke='#000' stroke-width='.5'/><circle cx='90' cy='44' r='6' fill='#d4a640' stroke='#000' stroke-width='.5'/><g fill='#f3efe2' stroke='#000' stroke-width='.5'><circle cx='112' cy='40' r='4'/><rect x='108' y='45' width='8' height='14' rx='3'/><circle cx='126' cy='38' r='4'/><rect x='122' y='43' width='8' height='16' rx='3'/><circle cx='140' cy='40' r='4'/><rect x='136' y='45' width='8' height='14' rx='3'/></g><text x='126' y='30' text-anchor='middle' font-size='7' fill='#5aa0ff' font-family='Georgia'>+30%</text>"
+    },
+    {
+      "frame": "f12",
+      "beat": "B12",
+      "scene_type": "big-cycle-story",
+      "seconds_estimate": 14.5,
+      "world": "navy-story",
+      "narration": "Last piece. Finance gets a simple guide: which of five cost centres each cost belongs to, and what counts as an asset or an expense. Every dollar has a home.",
+      "intent": "The plan survives contact with the accounting team.",
+      "layout": "Five labelled boxes along the ground line (Strategy, Technology, Security, People, Reserve). Gold coins drop from the top into them. Two rubber stamps on the right: CAPITALISE, EXPENSE.",
+      "elements": [
+        {
+          "id": "boxes",
+          "kind": "prop",
+          "count": 5,
+          "source": "code:svg"
+        },
+        {
+          "id": "coins",
+          "kind": "prop",
+          "count": 10,
+          "source": "code:svg (kit.coin small)"
+        },
+        {
+          "id": "stamps",
+          "kind": "prop",
+          "count": 2,
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "Finance",
+          "what": "eyebrow 'For the finance team' rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "five",
+          "what": "five boxes pop up from the ground, labels rise",
+          "dur": 1.2,
+          "ease": "back.out(1.8)"
+        },
+        {
+          "at_word": "belongs",
+          "what": "10 coins drop into boxes, staggered",
+          "dur": 2,
+          "ease": "bounce.out"
+        },
+        {
+          "at_word": "asset",
+          "what": "'CAPITALISE' stamp slams",
+          "dur": 0.3,
+          "ease": "power4.in"
+        },
+        {
+          "at_word": "expense",
+          "what": "'EXPENSE' stamp slams",
+          "dur": 0.3,
+          "ease": "power4.in"
+        },
+        {
+          "at_word": "home",
+          "what": "label 'Every dollar has a home' rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "on_screen_text": [
+        "For the finance team",
+        "Strategy",
+        "Technology",
+        "Security",
+        "People",
+        "Reserve",
+        "CAPITALISE",
+        "EXPENSE",
+        "Every dollar has a home"
+      ],
+      "numbers": [
+        "5 cost centres"
+      ],
+      "sfx": [
+        {
+          "at_word": "belongs",
+          "file": "coins dropping (quiet)"
+        },
+        {
+          "at_word": "asset",
+          "file": "stamp thud"
+        },
+        {
+          "at_word": "expense",
+          "file": "stamp thud"
+        }
+      ],
+      "transition_out": {
+        "type": "pan-left",
+        "dur": 0.6
+      },
+      "sketch_svg": "<line x1='0' y1='74' x2='160' y2='74' stroke='#c9cfdf' stroke-width='.6'/><g fill='#e9e1c9' stroke='#000' stroke-width='.5'><rect x='8' y='56' width='18' height='18'/><rect x='30' y='56' width='18' height='18'/><rect x='52' y='56' width='18' height='18'/><rect x='74' y='56' width='18' height='18'/><rect x='96' y='56' width='18' height='18'/></g><g fill='#d4a640' stroke='#000' stroke-width='.4'><circle cx='17' cy='40' r='3'/><circle cx='39' cy='30' r='3'/><circle cx='61' cy='44' r='3'/><circle cx='83' cy='34' r='3'/><circle cx='105' cy='42' r='3'/></g><g font-size='4.5' text-anchor='middle'><rect x='124' y='28' width='32' height='9' fill='none' stroke='#146EF5'/><text x='140' y='34' fill='#7CB9FF'>CAPITALISE</text><rect x='124' y='44' width='32' height='9' fill='none' stroke='#f6a800'/><text x='140' y='50' fill='#f6a800'>EXPENSE</text></g>"
+    },
+    {
+      "frame": "f13",
+      "beat": "B13",
+      "scene_type": "principle-card",
+      "seconds_estimate": 12,
+      "world": "green-chart",
+      "narration": "So, the principles. Price the plan before you start. Keep a reserve. Track it every month. And decide, out loud, to scale, improve, or stop.",
+      "intent": "Four portable rules.",
+      "layout": "Eyebrow 'Principles'. Four numbered serif lines stacked left-aligned in the centre column, each with a small blue numeral.",
+      "elements": [
+        {
+          "id": "list",
+          "kind": "text list",
+          "count": 4,
+          "source": "code:svg"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "principles",
+          "what": "eyebrow rises",
+          "dur": 0.35,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "Price",
+          "what": "line 1 rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "reserve",
+          "what": "line 2 rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "Track",
+          "what": "line 3 rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "decide",
+          "what": "line 4 rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        }
+      ],
+      "on_screen_text": [
+        "Principles",
+        "1 Price the plan before you start.",
+        "2 Keep a reserve.",
+        "3 Track it every month.",
+        "4 Decide: scale, improve or stop."
+      ],
+      "numbers": [],
+      "sfx": [],
+      "transition_out": {
+        "type": "cut"
+      },
+      "sketch_svg": "<text x='40' y='20' font-size='4' fill='#c9cfbf' letter-spacing='1'>PRINCIPLES</text><g font-family='Georgia' font-size='6.5' fill='#eef0e4'><text x='48' y='34'>Price the plan first.</text><text x='48' y='46'>Keep a reserve.</text><text x='48' y='58'>Track it every month.</text><text x='48' y='70'>Decide: scale, improve, stop.</text></g><g font-size='6.5' fill='#5aa0ff' font-family='Georgia'><text x='40' y='34'>1</text><text x='40' y='46'>2</text><text x='40' y='58'>3</text><text x='40' y='70'>4</text></g>"
+    },
+    {
+      "frame": "f14",
+      "beat": "B14",
+      "scene_type": "principle-card",
+      "seconds_estimate": 12.5,
+      "world": "green-chart",
+      "narration": "A strategy you can measure is a strategy you can defend. Start with the budget. Then choose the tools.",
+      "intent": "The thesis returns, proven; one clear next step. Then the brand end card.",
+      "layout": "The f01 card returns: 'It is a wish.' gets struck through and replaced by 'It is defensible.' Then a 3 s brand end card: paper background, logo, 'Talk to our team · example.com'.",
+      "elements": [
+        {
+          "id": "card",
+          "kind": "text",
+          "source": "code:svg"
+        },
+        {
+          "id": "endcard",
+          "kind": "brand bookend",
+          "source": "brands/demo (logo-dark.svg)"
+        }
+      ],
+      "motion": [
+        {
+          "at_word": "measure",
+          "what": "f01 lines fade back in",
+          "dur": 0.5,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "defend",
+          "what": "'a wish' struck through (line draws), 'defensible' rises in blue",
+          "dur": 0.6,
+          "ease": "power2.inOut"
+        },
+        {
+          "at_word": "budget",
+          "what": "'Start with the budget.' rises",
+          "dur": 0.4,
+          "ease": "power2.out"
+        },
+        {
+          "at_word": "tools",
+          "what": "after the line ends: wipe to brand end card, logo fades up",
+          "dur": 0.8,
+          "ease": "power3.inOut"
+        }
+      ],
+      "on_screen_text": [
+        "It is defensible.",
+        "Start with the budget.",
+        "example.com"
+      ],
+      "numbers": [],
+      "sfx": [
+        {
+          "at_word": "tools",
+          "file": "soft whoosh into end card"
+        }
+      ],
+      "transition_out": {
+        "type": "end"
+      },
+      "sketch_svg": "<rect x='0' y='0' width='160' height='90' fill='#2d4237'/><text x='80' y='30' text-anchor='middle' font-size='7' font-family='Georgia' fill='#eef0e4'>is not a strategy.</text><text x='80' y='44' text-anchor='middle' font-size='8' font-family='Georgia' fill='#eef0e4' opacity='.5'>It is a wish.</text><line x1='60' y1='42' x2='100' y2='42' stroke='#eef0e4' stroke-width='.8'/><text x='80' y='58' text-anchor='middle' font-size='9' font-family='Georgia' font-weight='bold' fill='#5aa0ff'>It is defensible.</text><rect x='104' y='66' width='52' height='20' fill='#f5f8fa'/><text x='130' y='78' text-anchor='middle' font-size='6' font-weight='bold' fill='#146EF5'>demo</text>"
+    }
+  ]
+}

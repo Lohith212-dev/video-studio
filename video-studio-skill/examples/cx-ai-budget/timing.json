@@ -1,0 +1,100 @@
+[
+  {
+    "beat": "B01",
+    "start": 0.4,
+    "dur": 8.213,
+    "file": "assets/vo/B01.wav",
+    "words": 24
+  },
+  {
+    "beat": "B02",
+    "start": 9.113,
+    "dur": 12.672,
+    "file": "assets/vo/B02.wav",
+    "words": 34
+  },
+  {
+    "beat": "B03",
+    "start": 22.285,
+    "dur": 12.757,
+    "file": "assets/vo/B03.wav",
+    "words": 30
+  },
+  {
+    "beat": "B04",
+    "start": 35.543,
+    "dur": 9.451,
+    "file": "assets/vo/B04.wav",
+    "words": 28
+  },
+  {
+    "beat": "B05",
+    "start": 45.493,
+    "dur": 9.28,
+    "file": "assets/vo/B05.wav",
+    "words": 28
+  },
+  {
+    "beat": "B06",
+    "start": 55.273,
+    "dur": 13.739,
+    "file": "assets/vo/B06.wav",
+    "words": 30
+  },
+  {
+    "beat": "B07",
+    "start": 69.512,
+    "dur": 13.269,
+    "file": "assets/vo/B07.wav",
+    "words": 30
+  },
+  {
+    "beat": "B08",
+    "start": 83.281,
+    "dur": 7.061,
+    "file": "assets/vo/B08.wav",
+    "words": 18
+  },
+  {
+    "beat": "B09",
+    "start": 90.843,
+    "dur": 12.203,
+    "file": "assets/vo/B09.wav",
+    "words": 31
+  },
+  {
+    "beat": "B10",
+    "start": 103.545,
+    "dur": 13.099,
+    "file": "assets/vo/B10.wav",
+    "words": 33
+  },
+  {
+    "beat": "B11",
+    "start": 117.144,
+    "dur": 10.773,
+    "file": "assets/vo/B11.wav",
+    "words": 31
+  },
+  {
+    "beat": "B12",
+    "start": 128.417,
+    "dur": 11.989,
+    "file": "assets/vo/B12.wav",
+    "words": 30
+  },
+  {
+    "beat": "B13",
+    "start": 140.907,
+    "dur": 10.581,
+    "file": "assets/vo/B13.wav",
+    "words": 25
+  },
+  {
+    "beat": "B14",
+    "start": 151.988,
+    "dur": 7.104,
+    "file": "assets/vo/B14.wav",
+    "words": 19
+  }
+]

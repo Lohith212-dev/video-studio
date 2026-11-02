@@ -1,0 +1,152 @@
+[
+ {
+  "id": "ray-dalio-principles",
+  "name": "Ray Dalio \"Principles\" Animation",
+  "one": "Calm, wise narration over chalkboard-green charts that draw themselves, with small hand-drawn props and characters popping in to act out each idea.",
+  "cam": false,
+  "diff": "medium",
+  "url": "https://www.youtube.com/watch?v=BB2r_eOjsPw",
+  "moves": [
+   "Line draw",
+   "Many → few",
+   "Mask-reveal labels",
+   "Bracket draw"
+  ],
+  "pace": "128 words per minute (measured: 624 words in 4:53)."
+ },
+ {
+  "id": "vox-explainer",
+  "name": "Vox Explainer",
+  "one": "A brisk, slightly wry narrator walks you through a question using charts that draw themselves, archival photos cut out and framed with coloured bars, and old newspaper headlines swiped with yellow highlighter, all on an off-white paper background.",
+  "cam": false,
+  "diff": "medium",
+  "url": "https://www.youtube.com/watch?v=V8Vtb0bn30M",
+  "moves": [
+   "Highlighter swipe",
+   "Self-drawing chart line",
+   "Framed cut-out with offset bars",
+   "Callout box"
+  ],
+  "pace": "Measured from auto-subtitles: 173 words per minute (V8Vtb0bn30M, 1,068 words over 370 s) and 174 wpm (kIID5FDi"
+ },
+ {
+  "id": "kurzgesagt",
+  "name": "Kurzgesagt-style Flat Science",
+  "one": "Bright, saturated flat-vector worlds that never stop moving gently, glowing particles on deep purple and navy, cute rounded characters and creatures, and a calm, optimistic narrator explaining big science one picture at a time.",
+  "cam": false,
+  "diff": "hard",
+  "url": "https://www.youtube.com/watch?v=pHJIhxZEoxg",
+  "moves": [
+   "Always-alive idle",
+   "Scale dive (zoom-through)",
+   "Pill label pop",
+   "Glow pulse"
+  ],
+  "pace": "168 wpm measured from auto-subtitles of pHJIhxZEoxg (1,861 words over 664 s)."
+ },
+ {
+  "id": "johnny-harris",
+  "name": "Johnny Harris-style Map Documentary",
+  "one": "A first-person, investigative narrator pulls you through a geography or history puzzle with clean animated maps, glowing route lines, big condensed labels, scribbled annotations on archival maps and fast documentary cutting.",
+  "cam": false,
+  "diff": "medium",
+  "url": "https://www.youtube.com/watch?v=aBppb2quqkE",
+  "moves": [
+   "Map flight with holds",
+   "Line draw-on",
+   "Highlight a country",
+   "Slam labels"
+  ],
+  "pace": "175 wpm measured from auto-subtitles of aBppb2quqkE (2,800 words over 958 s)."
+ },
+ {
+  "id": "whiteboard-sketch",
+  "name": "Whiteboard Sketch (RSA Animate)",
+  "one": "A hand with a black marker draws cartoons, arrows and capital-letter notes on a white board in sped-up time, in step with a speaker's voice, with a few key words in red, and the camera slides across one huge, growing drawing.",
+  "cam": false,
+  "diff": "medium",
+  "url": "https://www.youtube.com/watch?v=u6XAPnuFjJc",
+  "moves": [
+   "Write-on with hand",
+   "Hand enter/exit",
+   "Camera slide to fresh board",
+   "Red emphasis"
+  ],
+  "pace": "157 wpm measured from the human-made English subtitles of u6XAPnuFjJc (1,632 words over 623 s)."
+ },
+ {
+  "id": "kinetic-type-launch",
+  "name": "Kinetic Type Launch",
+  "one": "A dark, premium launch film where short feature lines fade in word by word, huge heavy words slam on the music's beats, and product UI floats in tilted 3D, all cut tightly to a driving track with little or no voice-over.",
+  "cam": false,
+  "diff": "medium",
+  "url": "https://www.youtube.com/watch?v=TNhX1uR2vO8",
+  "moves": [
+   "Word-by-word blur-in",
+   "Light sweep across a line",
+   "Beat slam",
+   "Dissolve out"
+  ],
+  "pace": "On-screen text, not speech: the Apple film shows about 15 short lines in 60 s; each line is 2-5 words and is o"
+ },
+ {
+  "id": "fireship",
+  "name": "Fireship Code Report",
+  "one": "A dry, rapid-fire, joke-a-sentence tech news narrator over a dark screen where screenshots, logos, code, stock-footage gags and memes slam in every second or so, annotated with red marker arrows, circles and chunky outlined captions.",
+  "cam": false,
+  "diff": "easy",
+  "url": "https://www.youtube.com/watch?v=wajoP_5Cpw8",
+  "moves": [
+   "Stamp pop",
+   "Marker annotation",
+   "Screenshot slide and tilt",
+   "Badge/number pop"
+  ],
+  "pace": "Measured from auto-subtitles of wajoP_5Cpw8 (first 7 min): 1,210 words over 353 s = 206 wpm, only 2 s of pause"
+ },
+ {
+  "id": "varun-mayya",
+  "name": "Varun Mayya Tech Short",
+  "one": "A fast, curious tech-news explainer where a presenter's quick talking-head shots alternate with stark white-on-black line diagrams that build piece by piece, real screenshots of the source, and tiny two-or-three-word captions near the bottom of the frame.",
+  "cam": true,
+  "diff": "medium",
+  "url": "https://www.youtube.com/shorts/Jmy2f5HQRgU",
+  "moves": [
+   "Schematic build-on",
+   "State flip",
+   "Strike-through",
+   "Split-screen hook"
+  ],
+  "pace": "Measured from YouTube auto-subtitles."
+ },
+ {
+  "id": "vaibhav-sisinty",
+  "name": "Vaibhav Sisinty AI Update",
+  "one": "An energetic AI-news host talks straight to camera in a warm, moody studio while the edit fires a new visual every 2-4 seconds - giant numbers behind people, boxed callout labels on leader lines, pixel-block transitions, highlighted news articles, one-orange-bar charts and tool demos - with an acid-lime accent tying it together.",
+  "cam": true,
+  "diff": "medium",
+  "url": "https://www.youtube.com/watch?v=ECshcTsXSFs",
+  "moves": [
+   "Text behind subject",
+   "Boxed callout chain",
+   "Pixel-block transition",
+   "Speed counter"
+  ],
+  "pace": "Measured from auto-subtitles."
+ },
+ {
+  "id": "aevy-tv",
+  "name": "Aevy TV Explainer",
+  "one": "A host in a warm, sunset-lit study asks a big Indian \"why\" question, and between her lines the video cuts to a calm cream-coloured canvas where photos sit in neat cards, thin-line charts fill in one wedge or square at a time, and cut-out 3D dioramas of mountains and cities explain the science.",
+  "cam": true,
+  "diff": "medium",
+  "url": "https://www.youtube.com/watch?v=-VPYbJxPvzY",
+  "moves": [
+   "Fill-one-part chart",
+   "Card step along a scale",
+   "Diorama push and reveal",
+   "Measurement bracket"
+  ],
+  "pace": "Measured from auto-subtitles of -VPYbJxPvzY (first 8 min): 1,346 words over 479 s = 169 wpm gross, 171 wpm net"
+ }
+]
