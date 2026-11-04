@@ -6,7 +6,7 @@
 3. It reviewed its own work, and a builder grading itself always passes.
 4. Lessons were written down as notes, not as checks that block a render.
 
-This gate fixes all four. It runs at stage 2 (plan), stage 4 (preview) and stage 5 (final). **Nothing is shown to the user until it passes**, and the agent never waits for the user to ask for polish: camera, transitions, sound and voice energy are part of the first build.
+This gate fixes all four. It runs at stage 2 (plan), stage 4 (preview) and stage 5 (final). The gate runs before showing, but it never hides a render: **the first render goes to the user with the scores and the fix list, and fixes are applied only after the user approves them.** The agent never waits for the user to ask for polish: camera, transitions, sound and voice energy are part of the first build.
 
 ## 1. Study the reference first (stage 2, before the frames)
 
@@ -62,7 +62,7 @@ It scores 1-5, with the reason and the timestamp of the worst moment, on:
 
 It also lists the 3 changes that would raise the lowest scores most.
 
-**Pass:** every score is 4 or higher and `compare.md` has no FAIL on the style's key measures. **Fail:** apply the fixes and run the gate again, at most 3 rounds. If round 3 still fails, show the user the render *with* the scores and the honest list of what's still below the reference. Never present a render as "done" with a failing score.
+**Pass:** every score is 4 or higher and `compare.md` has no FAIL on the style's key measures. **Fail:** show the render to the user with the scores and the proposed fixes; apply only the fixes the user approves, render the next version, and run the gate again (at most 3 rounds, every round shown to the user). Never run a fix round the user hasn't seen. If round 3 still fails, say plainly what is still below the reference. Never present a render as "done" with a failing score.
 
 Show the user the scores next to the preview: "Reviewer scores: voice 4, sound 4, camera 5 ...".
 

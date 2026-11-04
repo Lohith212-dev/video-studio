@@ -11,6 +11,8 @@ Where lessons live: this file ships with the skill. The user's own lessons go to
 Format: `- [scope] lesson. (source, date)` and on the next line `  Check: how to verify it before showing anything`. **A lesson without a Check is not finished.** The quality gate (`knowledge/quality-gate.md` §5) runs every check whose scope matches; a failed check blocks the render from being shown.
 
 ## Lessons
+- [global] Show the first render before any fix loop. On the Meeting Board launch video the agent ran three review, fix and re-render rounds in the background, each overwriting the last, and the user never saw version 1. The user wants to see v1 with the reviewer's findings, approve the fix list, and only then get a re-render. (Meeting Board launch, 2026-11-05)
+  Check: `renders/` holds `draft-v1.mp4` (or `preview-v1.mp4`), and `project.json → log` has a "shown to the user" line before any v2 render.
 - [global] Copy what makes the reference good, not only how it looks: voice delivery, sound effects, music energy, camera movement, cut rhythm, graphics density. The first Vaibhav-style render copied the look and was "Dalio with less motion". (CX budget, Vaibhav test, 2026-10-30)
   Check: `style_compare.py` against the reference shows no FAIL on voice, SFX, cuts, camera moves, visual change rate; the reviewer agent scores every area 4+.
 - [global] Never wait for the user to ask for polish: camera movement, transitions, sound effects and voice energy go into the first build. The user had to ask for this on every render. (CX budget, 2026-10-30)

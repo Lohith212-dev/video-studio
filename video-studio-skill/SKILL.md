@@ -57,7 +57,7 @@ If any frame has people, follow `<skill>/knowledge/casting.md`: list the roles, 
 ### Stage 4 — Preview (gate)
 1. **Voice:** `node <skill>/templates/voice.mjs <project>` (reads `storyboard.json` and `project.json → voice`). One clip per beat with the free local Kokoro voice, measured, `timing.json`, joined into `assets/vo/full.wav`. Redo single beats with `--only B03,B07`. Tell the user the total length and wpm.
 2. **Build the preview part:** build only the scenes for the 20 seconds that best show the look, the people and the motion (usually the hook plus the first person scene), with the build rules of stage 5, and run the self-checks on them.
-3. **Quality gate before showing** (`knowledge/quality-gate.md` §3-4): run `style_compare.py` against the reference window of the same scene types, then hand the preview to a fresh reviewer agent with `templates/reviewer-prompt.md`. Fix and repeat until every score is 4+ (max 3 rounds). You never approve your own render.
+3. **Quality gate, then show** (`knowledge/quality-gate.md` §3-4): run `style_compare.py` against the reference window of the same scene types, then hand the preview to a fresh reviewer agent with `templates/reviewer-prompt.md`. You never approve your own render. **Show this first render to the user right away**, with the reviewer's scores and its fix list (short: what changes, where, why). The fixes are proposals: wait for the user's yes, edits or "skip" before changing anything or rendering again. Then fix, re-render as the next version, show again. At most 3 rounds, and the user sees and approves every one.
 4. Render only that part to `renders/preview.mp4` (its own chapter composition, or a short draft cut with `ffmpeg -ss S -t 20`). Put it on the board, open it, ask: "Does this feel right? Anything to change before I make the whole video?" Show the reviewer scores and any measure still below the reference next to it. A preview costs a few minutes; a full render much longer.
 
 ### Stage 5 — Build and render (final gate)
@@ -84,13 +84,14 @@ After building: `npx hyperframes check` (fix errors; treat `dead_stretch` over 4
 
 **Render.** Follow `<skill>/knowledge/rendering.md`: check free memory first and pick the worker count from it; render videos of 3 minutes or more in parts with `node <skill>/templates/render_parts.mjs`. Draft to `renders/draft.mp4`, final to `renders/final.mp4`.
 
-**Quality gate (again, on the full draft).** `style_compare.py` + a fresh reviewer, as at the preview. Polish is part of the first build, not something the user has to ask for: tick every box in quality-gate §6 before rendering.
+**Quality gate (again, on the full draft).** `style_compare.py` + a fresh reviewer, as at the preview, with the same rule: show the first full render with the scores and the fix list, and re-render only after the user approves the fixes. Polish is part of the first build, not something the user has to ask for: tick every box in quality-gate §6 before rendering.
 
 **Final review (gate).** Open the video, ask for fixes as a short list. Apply them, re-render only the changed parts, join, show again. When approved, write `description.txt`: title options, a 2-line description, chapter timestamps, credits (music, sounds, drawings, generated pictures). Mark all stages done, open the board.
 
 ## Rules
 
-- **Never show a render that hasn't passed the quality gate**, and never be the one who approves your own render: a fresh reviewer agent scores it against the reference. If it still fails after 3 rounds, show it with the scores and say plainly what is below the reference.
+- **Show the first render, then loop only with the user.** Every render (preview or draft) goes to the user as soon as it exists, next to a fresh reviewer's scores and fix list. Never run review, fix and re-render rounds in the background before the user has seen version 1. Re-render only after the user approves the fix list (they may add, drop or change fixes). Show failing scores honestly; never hide them behind another silent round. You never approve your own render. Even when the user says "decide for me" or is away: render once, stop, and leave the render plus the findings for them.
+- **Keep every version.** Render to `renders/draft-v1.mp4`, `draft-v2.mp4`, ... (and `preview-v1.mp4`, ...); never overwrite a render the user hasn't seen. Each time you show one, say in 2-4 lines what changed since the last version.
 - Copy what makes the reference good (voice delivery, sound effects, music energy, camera movement, cut rhythm, graphics density), not just how it looks. Measure each against the reference.
 - Never skip a gate. Never build before the storyboard is approved and the cast is picked. Never render the full video before the preview is approved.
 - Feedback always ends as a lesson (see above); the same mistake must not happen twice.
